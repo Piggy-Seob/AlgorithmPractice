@@ -8,11 +8,11 @@
 import Foundation
 
 struct GCD {
-    static  func gcd(a:Int, b:Int) -> Int {
+    static  func gcd(_ a:Int,_ b:Int) -> Int {
         if b == 0 {
             return a
         }
-        return gcd(a: b, b: a % b)
+        return gcd(b, a % b)
     }
     
 //    var a = input[0]

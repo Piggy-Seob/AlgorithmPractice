@@ -8,8 +8,8 @@
 import Foundation
 
 struct LCM {
-    static func lcm(a:Int, b:Int) -> Int {
-        let gcd = GCD.gcd(a: a, b: b)
+    static func lcm(_ a:Int,_ b:Int) -> Int {
+        let gcd = GCD.gcd(a, b)
         let lcm = (a * b) / gcd
         return lcm
     }
