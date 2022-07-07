@@ -12,7 +12,7 @@ import Foundation
 // 배열안에 값이 없어질때까지 게속.
 // 맨 마지막에 들어갈때 시간을 구한다 + 배열의 길이를 하면 될듯?
 
-struct 트럭무게문제 {
+struct 트럭무게 {
     func solution(_ bridge_length:Int, _ weight:Int, _ truck_weights:[Int]) -> Int {
         var result: Int = 0
         var totalWeight: Int = 0
