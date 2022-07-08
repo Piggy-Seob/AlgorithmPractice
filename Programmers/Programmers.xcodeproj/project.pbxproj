@@ -17,6 +17,7 @@
 		8DDAF7952876B6F8004C592C /* LCM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF7942876B6F8004C592C /* LCM.swift */; };
 		8DDAF7972876BCC0004C592C /* Prime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF7962876BCC0004C592C /* Prime.swift */; };
 		8DDAF7992876D38A004C592C /* 피보나치.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF7982876D38A004C592C /* 피보나치.swift */; };
+		8DDAF79B2876E064004C592C /* MakeOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF79A2876E064004C592C /* MakeOne.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		8DDAF7942876B6F8004C592C /* LCM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCM.swift; sourceTree = "<group>"; };
 		8DDAF7962876BCC0004C592C /* Prime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prime.swift; sourceTree = "<group>"; };
 		8DDAF7982876D38A004C592C /* 피보나치.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "피보나치.swift"; sourceTree = "<group>"; };
+		8DDAF79A2876E064004C592C /* MakeOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeOne.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		8DDAF7712875AA84004C592C = {
 			isa = PBXGroup;
 			children = (
+				8DDAF77D2875AA84004C592C /* main.swift */,
 				8DDAF77C2875AA84004C592C /* Programmers */,
 				8DDAF79128767CA6004C592C /* BackJoon */,
 				8DDAF78E28767708004C592C /* Tool */,
@@ -77,7 +80,6 @@
 		8DDAF77C2875AA84004C592C /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
-				8DDAF77D2875AA84004C592C /* main.swift */,
 				8DDAF7842875AA93004C592C /* 정사각형넓이구하기.swift */,
 				8DDAF7862875ABED004C592C /* 트럭무게.swift */,
 				8DDAF78828766054004C592C /* 땅따먹기.swift */,
@@ -101,6 +103,7 @@
 		8DDAF79128767CA6004C592C /* BackJoon */ = {
 			isa = PBXGroup;
 			children = (
+				8DDAF79A2876E064004C592C /* MakeOne.swift */,
 			);
 			path = BackJoon;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 				8DDAF7932876B51E004C592C /* GCD.swift in Sources */,
 				8DDAF77E2875AA84004C592C /* main.swift in Sources */,
 				8DDAF78D287676F8004C592C /* Queue.swift in Sources */,
+				8DDAF79B2876E064004C592C /* MakeOne.swift in Sources */,
 				8DDAF78B28767624004C592C /* Stack.swift in Sources */,
 				8DDAF78928766054004C592C /* 땅따먹기.swift in Sources */,
 				8DDAF7852875AA93004C592C /* 정사각형넓이구하기.swift in Sources */,

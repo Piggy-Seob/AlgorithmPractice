@@ -8,9 +8,9 @@
 import Foundation
 
 
-struct 피보나치 {
+class 피보나치 {
     
-    // recursive
+//     recursive
 //    func solution(_ n: Int) -> Int {
 //        if n == 0 || n == 1 {
 //            return n
@@ -19,35 +19,32 @@ struct 피보나치 {
 //        return n
 //    }
     
-    // recursive Dynamic(top down)             // Call stack Depth Error 주의
+//     recursive Dynamic(top down)             // Call stack Depth Error 주의
+//    var fiboArray = [0, 1]
 //    func solution(_ n: Int) -> Int {
 //        if n == 1 || n == 0 {
 //            return n
 //        }
-//
-//        var fiboArray = [0, 1]
-//
 //        if n < fiboArray.count {
 //            return fiboArray[n]
 //        }
-//
 //        let n = solution(n - 1) + solution(n - 2)
 //        fiboArray.append(n)
 //        return n
 //    }
-    
-    // Dynamic with for loop(bottom up)
-    func solution(_ n: Int) -> Int {
-        if n == 1 || n == 0 {
-            return n
-        }
-        var fiboArray:[Int] = [0, 1]
-        
-        for i in 2...n {
-            fiboArray.append((fiboArray[i-1] + fiboArray[i-2]))
-        }
-        
-        return fiboArray[n]
-    }
+
+//    // Dynamic with for loop(bottom up)
+//    func solution(_ n: Int) -> Int {
+//        if n == 1 || n == 0 {
+//            return n
+//        }
+//        var fiboArray:[Int] = [0, 1]
+//
+//        for i in 2...n {
+//            fiboArray.append((fiboArray[i-1] + fiboArray[i-2]))
+//        }
+//
+//        return fiboArray[n]
+//    }
 }
 
