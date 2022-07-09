@@ -18,3 +18,6 @@ let 일로만들기문제 = MakeOne.init()
 //print(피보나치의수문제.solution(90))
 //print(일로만들기문제.solution())
 
+let 신고결과받기문제 = 신고결과받기()
+신고결과받기문제.solution(["muzi", "frodo", "apeach", "neo"],
+                  ["muzi frodo","apeach frodo","frodo neo","muzi neo","apeach muzi"], 2)

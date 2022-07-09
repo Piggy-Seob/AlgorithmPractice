@@ -18,6 +18,7 @@
 		8DDAF7972876BCC0004C592C /* Prime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF7962876BCC0004C592C /* Prime.swift */; };
 		8DDAF7992876D38A004C592C /* 피보나치.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF7982876D38A004C592C /* 피보나치.swift */; };
 		8DDAF79B2876E064004C592C /* MakeOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF79A2876E064004C592C /* MakeOne.swift */; };
+		8DDAF79D2878E9BA004C592C /* 신고결과받기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAF79C2878E9BA004C592C /* 신고결과받기.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		8DDAF7962876BCC0004C592C /* Prime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prime.swift; sourceTree = "<group>"; };
 		8DDAF7982876D38A004C592C /* 피보나치.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "피보나치.swift"; sourceTree = "<group>"; };
 		8DDAF79A2876E064004C592C /* MakeOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeOne.swift; sourceTree = "<group>"; };
+		8DDAF79C2878E9BA004C592C /* 신고결과받기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "신고결과받기.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				8DDAF7862875ABED004C592C /* 트럭무게.swift */,
 				8DDAF78828766054004C592C /* 땅따먹기.swift */,
 				8DDAF7982876D38A004C592C /* 피보나치.swift */,
+				8DDAF79C2878E9BA004C592C /* 신고결과받기.swift */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				8DDAF77E2875AA84004C592C /* main.swift in Sources */,
 				8DDAF78D287676F8004C592C /* Queue.swift in Sources */,
 				8DDAF79B2876E064004C592C /* MakeOne.swift in Sources */,
+				8DDAF79D2878E9BA004C592C /* 신고결과받기.swift in Sources */,
 				8DDAF78B28767624004C592C /* Stack.swift in Sources */,
 				8DDAF78928766054004C592C /* 땅따먹기.swift in Sources */,
 				8DDAF7852875AA93004C592C /* 정사각형넓이구하기.swift in Sources */,
