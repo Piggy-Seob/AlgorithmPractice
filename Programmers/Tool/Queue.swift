@@ -30,12 +30,11 @@ struct Queue<T> {
         let element = array[head]
         
         head += 1
-        print(head)
-        if head > 5 {
+        
+        if head > 50 {
             array.removeFirst(head)
             head = 0
         }
         return element
     }
-    
 }
